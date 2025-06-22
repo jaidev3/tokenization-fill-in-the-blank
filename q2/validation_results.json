@@ -1,0 +1,227 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "first_answer": "London",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "Paris",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "first_answer": "Saturn",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "Jupiter",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "first_answer": "H20",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "H2O",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "Who wrote the novel '1984'?",
+    "first_answer": "Aldous Huxley",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "George Orwell",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the speed of light in vacuum?",
+    "first_answer": "300,000 km/s",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "299,792,458 meters per second",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What year did World War II end?",
+    "first_answer": "1944",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "1945",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the smallest unit of matter?",
+    "first_answer": "Molecule",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "Atom",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "How many continents are there?",
+    "first_answer": "6",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "7",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "first_answer": "Yuan",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "Yen",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the boiling point of water at sea level?",
+    "first_answer": "212 degrees Fahrenheit",
+    "first_validation": {
+      "status": "RETRY_MISMATCH",
+      "message": "RETRY: answer differs from KB"
+    },
+    "retried": true,
+    "final_status": "VALID",
+    "retry_answer": "100 degrees Celsius",
+    "retry_validation": {
+      "status": "VALID",
+      "message": "Answer matches knowledge base"
+    }
+  },
+  {
+    "question": "What is the population of Mars?",
+    "first_answer": "There is no permanent human population on Mars",
+    "first_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    },
+    "retried": true,
+    "final_status": "RETRY_OUT_OF_DOMAIN",
+    "retry_answer": "There is no permanent human population on Mars",
+    "retry_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    }
+  },
+  {
+    "question": "What color is a unicorn?",
+    "first_answer": "Unicorns are mythical creatures and don't exist",
+    "first_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    },
+    "retried": true,
+    "final_status": "RETRY_OUT_OF_DOMAIN",
+    "retry_answer": "Unicorns are mythical creatures and don't exist",
+    "retry_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    }
+  },
+  {
+    "question": "How many moons does Earth have?",
+    "first_answer": "1",
+    "first_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    },
+    "retried": true,
+    "final_status": "RETRY_OUT_OF_DOMAIN",
+    "retry_answer": "1",
+    "retry_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    }
+  },
+  {
+    "question": "What is the capital of Atlantis?",
+    "first_answer": "Atlantis is a fictional place",
+    "first_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    },
+    "retried": true,
+    "final_status": "RETRY_OUT_OF_DOMAIN",
+    "retry_answer": "Atlantis is a fictional place",
+    "retry_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    }
+  },
+  {
+    "question": "What is 2+2?",
+    "first_answer": "4",
+    "first_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    },
+    "retried": true,
+    "final_status": "RETRY_OUT_OF_DOMAIN",
+    "retry_answer": "4",
+    "retry_validation": {
+      "status": "RETRY_OUT_OF_DOMAIN",
+      "message": "RETRY: out-of-domain"
+    }
+  }
+]
